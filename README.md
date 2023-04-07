@@ -29,3 +29,7 @@ The San Diego Police Department's communications dispatch center handles emergen
 * Forecast the police stops per day
 * Predict the priority of a call
 * Analyze the priority of calls in weekday and weekend comparisons
+
+<p align ="center">
+<img src = "/Images/police_calls_forecast.png">
+</p>
