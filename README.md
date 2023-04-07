@@ -1,7 +1,6 @@
 # Predicting_Police_Activity
 
 
-
 ### Partners  
 **Authors:**  
 
@@ -36,7 +35,7 @@ Public Bucket = 'sdpd-bucket'
 ### Process:
 * Ingest Data -> https://seshat.datasd.org/pd/
 * Data Processing -> AWS Athena
-* Models
+* Models ->
 
     1. DeepAR -> Forecast Number of Police Calls by hour
     2. Calsification -> Predict Prioirity of Police Calls
@@ -54,7 +53,7 @@ Public Bucket = 'sdpd-bucket'
 #### Original RSME-> 10.6 Calls per Hour
 
 <p align ="center">
-<img src = "/Images/Training_Jobs_RSME.png">
+<img src = "/Images/Training _Jobs_RSME.png">
 </p>
 
 #### HyperTuned RSME-> 8.6 Calls per Hour
