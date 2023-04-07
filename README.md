@@ -1,7 +1,6 @@
 # Predicting_Police_Activity
 
 
-
 ### Partners  
 **Authors:**  
 
@@ -29,3 +28,36 @@ The San Diego Police Department's communications dispatch center handles emergen
 * Forecast the police stops per day
 * Predict the priority of a call
 * Analyze the priority of calls in weekday and weekend comparisons
+
+### AWS Config:
+Public Bucket = 'sdpd-bucket'
+
+### Process:
+* Ingest Data -> https://seshat.datasd.org/pd/
+* Data Processing -> AWS Athena
+* Models ->
+
+    1. DeepAR -> Forecast Number of Police Calls by hour
+    2. Calsification -> Predict Prioirity of Police Calls
+    3.  Time Series Forecast -> Forecast Number of Police Stops
+
+## Model 1  Predicitng Calls for Police Service
+
+#### Time Series Training and Testing
+
+<p align ="center">
+<img src = "/Images/police_calls_train_test.png">
+</p>
+
+
+#### Original RSME-> 10.6 Calls per Hour
+
+<p align ="center">
+<img src = "/Images/Training _Jobs_RSME.png">
+</p>
+
+#### HyperTuned RSME-> 8.6 Calls per Hour
+
+<p align ="center">
+<img src = "/Images/police_calls_forecast.png">
+</p>
