@@ -61,3 +61,9 @@ Public Bucket = 'sdpd-bucket'
 <p align ="center">
 <img src = "/Images/police_calls_forecast.png">
 </p>
+
+#### Plotly Figure using AWS Endpoint
+
+<p align ="center">
+<img src = "/Images/Plotly_Forecast.png">
+</p>
