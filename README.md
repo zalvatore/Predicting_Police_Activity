@@ -50,11 +50,14 @@ Public Bucket = 'sdpd-bucket'
 
 ### Process:
 * Ingest Data -> https://seshat.datasd.org/pd/
-* Data Processing -> AWS Athena
+* Data Storage -> Data Storage in S3 Bucket and Retrieval for Analysis
+* Database and Table Structures -> AWS Athena
+* Data Cleaning -> Detect Missing Values, Fixing Data Types, Feature Engineering, Encoding
+* Data Modeling -> Classification, Time Series 
 * Models ->
 
     1. DeepAR -> Forecast Number of Police Calls by hour
-    2. Calsification -> Predict Prioirity of Police Calls
+    2. Clasification -> Predict Prioirity of Police Calls 
     3. Time Series Forecast -> Forecast Number of Police Stops
     
 ----
