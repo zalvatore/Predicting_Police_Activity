@@ -12,8 +12,8 @@
 <img src = "/Images/SDSA.png">
 </p>
 
-**Company Name:** SD Solution Analytics
-**Company Industry:** Predictive policing solution 
+**Company Name:** SD Solution Analytics</br>
+**Company Industry:** Predictive policing solution</br>
 **Company Size:** 10 - 50
 
 ----
