@@ -62,7 +62,7 @@ Public Bucket = 'sdpd-bucket'
     
 ----
 
-## Model 1  Predicitng Calls for Police Service
+## Model 1  Predicting Calls for Police Service
 
 #### Time Series Training and Testing
 
